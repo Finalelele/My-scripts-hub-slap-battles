@@ -29,7 +29,7 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Avatar script")
 local Button = Tab:CreateButton({
-   Name = "Get avatar",
+   Name = "Get avatar (use in guide world)",
    Callback = function()
   		loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
    end,
