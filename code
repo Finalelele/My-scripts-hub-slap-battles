@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Finale scripts hub",
-   LoadingTitle = "Finale scripts hub",
+   Name = "Finale Slap Battles scripts hub",
+   LoadingTitle = "Finale Slap Battles scripts hub",
    LoadingSubtitle = "by Finale",
    ConfigurationSaving = {
       Enabled = false,
@@ -27,10 +27,46 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Avatar script")
+local Section = Tab:CreateSection("Gloves scripts")
 local Button = Tab:CreateButton({
    Name = "Get avatar (use in guide world)",
    Callback = function()
   		loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Auto get riftshot",
+   Callback = function()
+  		loadstring(game:HttpGet("https://pastefy.app/Q8kCqS8V/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Mastery farm (or use Articles hub)",
+   Callback = function()
+  		loadstring(game:HttpGet("https://raw.githubusercontent.com/0-BaconScripter-0/Script/refs/heads/main/Slap%20Battles/Mastery%20Farm"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Tp null zone (need rob and bob or pan glove)",
+   Callback = function()
+  		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dusty1234567890/Null-zone3/main/Null%20zone"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Slap battles hubs")
+local Button = Tab:CreateButton({
+   Name = "Articles hub (i use for dave and mortis)",
+   Callback = function()
+  		loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/File-Script/Slap_Battles.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VinQ hub",
+   Callback = function()
+  		loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
    end,
 })
