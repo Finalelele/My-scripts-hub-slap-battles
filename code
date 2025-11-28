@@ -56,6 +56,20 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "No cooldown glove and ability (need use every death)",
+   Callback = function()
+  		loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/NoCooldown'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bob farm",
+   Callback = function()
+  		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dusty1234567890/Bobfarmupd/main/Bobfarm"))()
+   end,
+})
+
 local Section = Tab:CreateSection("Slap battles hubs")
 local Button = Tab:CreateButton({
    Name = "Articles hub (i use for dave and mortis)",
@@ -68,5 +82,21 @@ local Button = Tab:CreateButton({
    Name = "VinQ hub",
    Callback = function()
   		loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Other", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Other scripts")
+local Button = Tab:CreateButton({
+   Name = "Infinity yeld",
+   Callback = function()
+  		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fly Gui V3",
+   Callback = function()
+  		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
    end,
 })
